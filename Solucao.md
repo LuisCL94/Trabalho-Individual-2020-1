@@ -11,5 +11,5 @@ sudo docker-compose up
 
 # Integração Contínua
 
-Foi ultilizado a aplicacao web buddy.works para as etapas de build do back-end e
-front-end nao qual sao instaladas as dependencias e os testes sao rodados.
+Foi ultilizado a aplicacao web [buddy.works](https://app.buddy.works/) para as etapas de build do front-end e 
+back-end, na qual são instaladas as dependências e os testes são rodados. 
