@@ -11,6 +11,21 @@ sudo docker-compose run api rake db:migrate
 sudo docker-compose up
 ```
 
+
+### Para executar os testes
+
+
+- Fron-end
+
+```
+sudo docker-compose run client yarn test:unit
+```
+- Back-end
+
+```
+sudo docker-compose run api bundle exec rails test
+```
+
 # Integração Contínua
 
 Foi ultilizado a aplicacao web [buddy.works](https://app.buddy.works/) para as etapas de build do front-end e
